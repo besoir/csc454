@@ -1,0 +1,9 @@
+besoir/Framework/Port.class
+besoir/Framework/Model.class
+besoir/Framework/AtomicModel.class
+besoir/Framework/Pipe.class
+besoir/Model/XORModel.class
+besoir/Model/XORNetwork.class
+besoir/Framework/NetworkModel.class
+besoir/Model/MemoryModel.class
+besoir/Main.class

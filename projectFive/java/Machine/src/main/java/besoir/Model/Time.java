@@ -1,0 +1,23 @@
+package besoir.Model;
+
+public class Time {
+    private double tr, ti;
+
+    public Time(double tr, double ti) {
+        this.tr = tr;
+        this.ti = ti;
+    }
+
+    public void setTime(double t) {
+        if(tr == t) {
+            ti = 2.0;
+        } else {
+            tr = t;
+        }
+    }
+
+    @Override
+    public String toString() {
+        return "(" + tr + ", " + ti + ")";
+    }
+}

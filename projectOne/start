@@ -1,0 +1,4 @@
+rm *.o
+g++ -c *.cpp
+g++ *.o -o game
+./game

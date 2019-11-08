@@ -1,0 +1,587 @@
+[2019-10-18 13:55:55,255] INFO org.github.dragos.vscode.Main$ - Starting server in /Users/tommy/csc454/projectFour/java/VendingMachine
+[2019-10-18 13:55:55,255] INFO org.github.dragos.vscode.Main$ - Starting server in /Users/tommy/csc454/projectFour/java/VendingMachine
+[2019-10-18 13:55:55,263] INFO org.github.dragos.vscode.Main$ - Classpath: /Users/tommy/.vscode/extensions/dragos.scala-lsp-0.2.3/coursier
+[2019-10-18 13:55:55,263] INFO org.github.dragos.vscode.Main$ - Classpath: /Users/tommy/.vscode/extensions/dragos.scala-lsp-0.2.3/coursier
+[2019-10-18 13:55:55,394] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 1231
+[2019-10-18 13:55:55,394] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 1231
+[2019-10-18 13:55:55,409] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":0,"method":"initialize","params":{"processId":60137,"rootPath":"/Users/tommy/csc454/projectFour/java/VendingMachine","rootUri":"file:///Users/tommy/csc454/projectFour/java/VendingMachine","capabilities":{"workspace":{"applyEdit":true,"didChangeConfiguration":{"dynamicRegistration":false},"didChangeWatchedFiles":{"dynamicRegistration":false},"symbol":{"dynamicRegistration":true},"executeCommand":{"dynamicRegistration":true}},"textDocument":{"synchronization":{"dynamicRegistration":true,"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"dynamicRegistration":true,"completionItem":{"snippetSupport":true}},"hover":{"dynamicRegistration":true},"signatureHelp":{"dynamicRegistration":true},"references":{"dynamicRegistration":true},"documentHighlight":{"dynamicRegistration":true},"documentSymbol":{"dynamicRegistration":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{"dynamicRegistration":true},"onTypeFormatting":{"dynamicRegistration":true},"definition":{"dynamicRegistration":true},"codeAction":{"dynamicRegistration":true},"codeLens":{"dynamicRegistration":true},"documentLink":{"dynamicRegistration":true},"rename":{"dynamicRegistration":true}}},"trace":"off"}}
+[2019-10-18 13:55:55,409] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":0,"method":"initialize","params":{"processId":60137,"rootPath":"/Users/tommy/csc454/projectFour/java/VendingMachine","rootUri":"file:///Users/tommy/csc454/projectFour/java/VendingMachine","capabilities":{"workspace":{"applyEdit":true,"didChangeConfiguration":{"dynamicRegistration":false},"didChangeWatchedFiles":{"dynamicRegistration":false},"symbol":{"dynamicRegistration":true},"executeCommand":{"dynamicRegistration":true}},"textDocument":{"synchronization":{"dynamicRegistration":true,"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"dynamicRegistration":true,"completionItem":{"snippetSupport":true}},"hover":{"dynamicRegistration":true},"signatureHelp":{"dynamicRegistration":true},"references":{"dynamicRegistration":true},"documentHighlight":{"dynamicRegistration":true},"documentSymbol":{"dynamicRegistration":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{"dynamicRegistration":true},"onTypeFormatting":{"dynamicRegistration":true},"definition":{"dynamicRegistration":true},"codeAction":{"dynamicRegistration":true},"codeLens":{"dynamicRegistration":true},"documentLink":{"dynamicRegistration":true},"rename":{"dynamicRegistration":true}}},"trace":"off"}}
+[2019-10-18 13:55:56,461] INFO org.github.dragos.vscode.EnsimeLanguageServer - Initialized with 60137, /Users/tommy/csc454/projectFour/java/VendingMachine, ClientCapabilities()
+[2019-10-18 13:55:56,461] INFO org.github.dragos.vscode.EnsimeLanguageServer - Initialized with 60137, /Users/tommy/csc454/projectFour/java/VendingMachine, ClientCapabilities()
+[2019-10-18 13:55:56,463] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - ensime.config = "/Users/tommy/csc454/projectFour/java/VendingMachine/.ensime" 
+[2019-10-18 13:55:56,463] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - ensime.config = "/Users/tommy/csc454/projectFour/java/VendingMachine/.ensime" 
+[2019-10-18 13:55:57,016] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+[2019-10-18 13:55:57,269] ERROR org.github.dragos.vscode.EnsimeLanguageServer - initializeEnsime Error: /Users/tommy/csc454/projectFour/java/VendingMachine/.ensime
+[2019-10-18 13:55:57,269] ERROR org.github.dragos.vscode.EnsimeLanguageServer - initializeEnsime Error: /Users/tommy/csc454/projectFour/java/VendingMachine/.ensime
+[2019-10-18 13:55:57,362] DEBUG langserver.core.MessageWriter - Content-Length: 146
+
+
+
+{"jsonrpc":"2.0","method":"window/showMessage","params":{"tpe":1,"message":"No .ensime file in directory. Run `sbt ensimeConfig` to create one."}}
+[2019-10-18 13:55:57,362] DEBUG langserver.core.MessageWriter - Content-Length: 146
+
+
+
+{"jsonrpc":"2.0","method":"window/showMessage","params":{"tpe":1,"message":"No .ensime file in directory. Run `sbt ensimeConfig` to create one."}}
+[2019-10-18 13:55:57,362] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","method":"window/showMessage","params":{"tpe":1,"message":"No .ensime file in directory. Run `sbt ensimeConfig` to create one."}}
+[2019-10-18 13:55:57,362] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","method":"window/showMessage","params":{"tpe":1,"message":"No .ensime file in directory. Run `sbt ensimeConfig` to create one."}}
+[2019-10-18 13:55:57,473] DEBUG langserver.core.MessageWriter - Content-Length: 441
+
+
+
+{"jsonrpc":"2.0","result":{"capabilities":{"textDocumentSync":1,"hoverProvider":true,"completionProvider":{"resolveProvider":false,"triggerCharacters":["."]},"definitionProvider":true,"referencesProvider":false,"documentHighlightProvider":false,"documentSymbolProvider":true,"workspaceSymbolProvider":false,"codeActionProvider":false,"documentFormattingProvider":false,"documentRangeFormattingProvider":false,"renameProvider":false}},"id":0}
+[2019-10-18 13:55:57,473] DEBUG langserver.core.MessageWriter - Content-Length: 441
+
+
+
+{"jsonrpc":"2.0","result":{"capabilities":{"textDocumentSync":1,"hoverProvider":true,"completionProvider":{"resolveProvider":false,"triggerCharacters":["."]},"definitionProvider":true,"referencesProvider":false,"documentHighlightProvider":false,"documentSymbolProvider":true,"workspaceSymbolProvider":false,"codeActionProvider":false,"documentFormattingProvider":false,"documentRangeFormattingProvider":false,"renameProvider":false}},"id":0}
+[2019-10-18 13:55:57,474] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","result":{"capabilities":{"textDocumentSync":1,"hoverProvider":true,"completionProvider":{"resolveProvider":false,"triggerCharacters":["."]},"definitionProvider":true,"referencesProvider":false,"documentHighlightProvider":false,"documentSymbolProvider":true,"workspaceSymbolProvider":false,"codeActionProvider":false,"documentFormattingProvider":false,"documentRangeFormattingProvider":false,"renameProvider":false}},"id":0}
+[2019-10-18 13:55:57,474] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","result":{"capabilities":{"textDocumentSync":1,"hoverProvider":true,"completionProvider":{"resolveProvider":false,"triggerCharacters":["."]},"definitionProvider":true,"referencesProvider":false,"documentHighlightProvider":false,"documentSymbolProvider":true,"workspaceSymbolProvider":false,"codeActionProvider":false,"documentFormattingProvider":false,"documentRangeFormattingProvider":false,"renameProvider":false}},"id":0}
+[2019-10-18 13:55:57,476] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 52
+[2019-10-18 13:55:57,476] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 52
+[2019-10-18 13:55:57,477] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"initialized","params":{}}
+[2019-10-18 13:55:57,477] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"initialized","params":{}}
+[2019-10-18 13:55:57,495] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification Initialized()
+[2019-10-18 13:55:57,495] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification Initialized()
+[2019-10-18 13:55:57,495] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 4530
+[2019-10-18 13:55:57,495] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 4530
+[2019-10-18 13:55:57,499] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didOpen","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala","languageId":"scala","version":1,"text":"import scala.util.parsing.combinator._\n \nabstract class Tree\ncase class E(m: Tree) extends Tree\ncase class And(l: Tree, r: Tree) extends Tree\ncase class Or(l: Tree, r: Tree) extends Tree\ncase class Not(r: Tree) extends Tree\ncase class Chr(n: Char) extends Tree\ncase class Bool(b: Boolean) extends Tree\n//case class Parab(p: Char) extends Tree\n//case class Parae(q: Char) extends Tree\n \nobject TreeBuilder extends Definitions {\n  type Environment = String => String\n\n  def eval(t: Tree, env: Environment): String = t match {\n    //The E Case\n    //The case e + the value of the statement is true => return just the string true\n    case E(m) if(eval(m, env) == \"true\") => \"true\" \n    //The case e + the value of the statement is false => return just the string false\n    case E(m) if(eval(m, env) == \"false\") => \"false\" \n    //The case e => value of the statement\n    case E(m) => \"(\" + eval(m, env) + \")\"\n\n    //The And Cases\n    //The case and + left side is true => the statement = value of the right side\n    case And(l, r) if(eval(l,env) == \"true\") => eval(r, env)\n    //The case and + left side is false => the statement is false\n    case And(l, r) if(eval(l, env) == \"false\") => \"false\"\n    //The case and + the left /= true || false && the right is true => the statement = the left side\n    case And(l, r) if(eval(r, env) == \"true\") => eval(l, env)\n    //The case and + left /= true || false && the right is false => the statement is false\n    case And(l, r) if(eval(r, env) == \"false\") => \"false\"\n    //The case and + left, right /= true || false => the statement = value on right and value on the left\n    case And(l, r) => eval(l, env) + \"&&\" + eval(r, env)\n    \n    //The Or Cases\n    //The case or + left side is true => the statement is true\n    case Or(l, r) if(eval(l, env) == \"true\") => \"true\"\n    //The case or + left side is false => the statement = value of the left side\n    case Or(l, r) if(eval(l, env) == \"false\")=> eval(r, env)\n    //The case or + left /= true || false && the right is true => the statement is true\n    case Or(l, r) if(eval(r, env) == \"true\") => \"true\"\n    //The case or + left /= true || false && the right is false => the statement = the left side\n    case Or(l, r) if(eval(r, env) == \"false\") => eval(l, env)\n    //The case or + left, right /= true || false => the statement = value on right and value on left\n    case Or(l, r) => eval(l, env) + \"||\" + eval(r, env)\n\n    //The Not Case\n    //The case not + the statement is true => the statement is false\n    case Not(r) if(eval(r, env) == \"true\") => \"false\"\n    //The case not + the statement is false => the statement is true\n    case Not(r) if(eval(r, env) == \"false\") => \"true\"\n    //The case not + the statement is neither true || false => the statement is false\n    case Not(r) => \"!\" + (eval(r, env))\n\n    //The Character Case\n    //The case is a character => the value is the character\n    case Chr(n) => \"\" + n\n    \n    //The Boolean Case\n    //The case is a boolean => the value is that boolean\n    case Bool(b) => \"\" + b\n  }\n\n  def main(args: Array[String]){\n    print(\"expression? \")\n    var in : String = scala.io.StdIn.readLine()\n    while(in != \"quit\") {\n      val out:Tree = parseAll(e, in).get\n      val env: Environment = {\n        case \"a\" => \"a\"\n      }\n      println(\"result: \" + eval(out, env))\n      print(\"expression? \")\n      in = scala.io.StdIn.readLine()\n    }  \n  }\n}\n \nclass Definitions extends JavaTokenParsers {\n  //E -> T '||' E | T\n  //T -> F '&&' T | F\n  //F -> '!' A | A\n  //A -> '(' E ')' | C\n  //C -> 'true' | 'false' | 'c'\n  //c -> anyChar\n\n  def e: Parser[Tree] = t ~ orn ~ e ^^ {case l ~ o ~ r => Or(l, r)} | t\n  def t: Parser[Tree] = f ~ andn ~ t ^^ {case l ~ a ~ r => And(l, r)} | f\n  def f: Parser[Tree] = notn ~ a ^^ {case n ~ r => Not(r)} | a\n  def a: Parser[Tree] = parab ~ e ~ parae ^^ {case l ~ m ~ r => E(m)} | c\n  def c: Parser[Tree] = bol | chr\n  def chr: Parser[Chr] = \"[A-Za-z]\".r ^^ {str => Chr(str.charAt(0))}\n  def bol: Parser[Bool] = \"true\".r ^^ {str => Bool(true)} | \"false\".r ^^ {str => Bool(false)}\n  def parab[Tree] = \"(\"\n  def parae[Tree] = \")\"\n  def andn[Tree] = \"&&\"\n  def notn[Tree] = \"!\" \n  def orn[Tree] = \"||\"\n}"}}}
+[2019-10-18 13:55:57,499] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didOpen","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala","languageId":"scala","version":1,"text":"import scala.util.parsing.combinator._\n \nabstract class Tree\ncase class E(m: Tree) extends Tree\ncase class And(l: Tree, r: Tree) extends Tree\ncase class Or(l: Tree, r: Tree) extends Tree\ncase class Not(r: Tree) extends Tree\ncase class Chr(n: Char) extends Tree\ncase class Bool(b: Boolean) extends Tree\n//case class Parab(p: Char) extends Tree\n//case class Parae(q: Char) extends Tree\n \nobject TreeBuilder extends Definitions {\n  type Environment = String => String\n\n  def eval(t: Tree, env: Environment): String = t match {\n    //The E Case\n    //The case e + the value of the statement is true => return just the string true\n    case E(m) if(eval(m, env) == \"true\") => \"true\" \n    //The case e + the value of the statement is false => return just the string false\n    case E(m) if(eval(m, env) == \"false\") => \"false\" \n    //The case e => value of the statement\n    case E(m) => \"(\" + eval(m, env) + \")\"\n\n    //The And Cases\n    //The case and + left side is true => the statement = value of the right side\n    case And(l, r) if(eval(l,env) == \"true\") => eval(r, env)\n    //The case and + left side is false => the statement is false\n    case And(l, r) if(eval(l, env) == \"false\") => \"false\"\n    //The case and + the left /= true || false && the right is true => the statement = the left side\n    case And(l, r) if(eval(r, env) == \"true\") => eval(l, env)\n    //The case and + left /= true || false && the right is false => the statement is false\n    case And(l, r) if(eval(r, env) == \"false\") => \"false\"\n    //The case and + left, right /= true || false => the statement = value on right and value on the left\n    case And(l, r) => eval(l, env) + \"&&\" + eval(r, env)\n    \n    //The Or Cases\n    //The case or + left side is true => the statement is true\n    case Or(l, r) if(eval(l, env) == \"true\") => \"true\"\n    //The case or + left side is false => the statement = value of the left side\n    case Or(l, r) if(eval(l, env) == \"false\")=> eval(r, env)\n    //The case or + left /= true || false && the right is true => the statement is true\n    case Or(l, r) if(eval(r, env) == \"true\") => \"true\"\n    //The case or + left /= true || false && the right is false => the statement = the left side\n    case Or(l, r) if(eval(r, env) == \"false\") => eval(l, env)\n    //The case or + left, right /= true || false => the statement = value on right and value on left\n    case Or(l, r) => eval(l, env) + \"||\" + eval(r, env)\n\n    //The Not Case\n    //The case not + the statement is true => the statement is false\n    case Not(r) if(eval(r, env) == \"true\") => \"false\"\n    //The case not + the statement is false => the statement is true\n    case Not(r) if(eval(r, env) == \"false\") => \"true\"\n    //The case not + the statement is neither true || false => the statement is false\n    case Not(r) => \"!\" + (eval(r, env))\n\n    //The Character Case\n    //The case is a character => the value is the character\n    case Chr(n) => \"\" + n\n    \n    //The Boolean Case\n    //The case is a boolean => the value is that boolean\n    case Bool(b) => \"\" + b\n  }\n\n  def main(args: Array[String]){\n    print(\"expression? \")\n    var in : String = scala.io.StdIn.readLine()\n    while(in != \"quit\") {\n      val out:Tree = parseAll(e, in).get\n      val env: Environment = {\n        case \"a\" => \"a\"\n      }\n      println(\"result: \" + eval(out, env))\n      print(\"expression? \")\n      in = scala.io.StdIn.readLine()\n    }  \n  }\n}\n \nclass Definitions extends JavaTokenParsers {\n  //E -> T '||' E | T\n  //T -> F '&&' T | F\n  //F -> '!' A | A\n  //A -> '(' E ')' | C\n  //C -> 'true' | 'false' | 'c'\n  //c -> anyChar\n\n  def e: Parser[Tree] = t ~ orn ~ e ^^ {case l ~ o ~ r => Or(l, r)} | t\n  def t: Parser[Tree] = f ~ andn ~ t ^^ {case l ~ a ~ r => And(l, r)} | f\n  def f: Parser[Tree] = notn ~ a ^^ {case n ~ r => Not(r)} | a\n  def a: Parser[Tree] = parab ~ e ~ parae ^^ {case l ~ m ~ r => E(m)} | c\n  def c: Parser[Tree] = bol | chr\n  def chr: Parser[Chr] = \"[A-Za-z]\".r ^^ {str => Chr(str.charAt(0))}\n  def bol: Parser[Bool] = \"true\".r ^^ {str => Bool(true)} | \"false\".r ^^ {str => Bool(false)}\n  def parab[Tree] = \"(\"\n  def parae[Tree] = \")\"\n  def andn[Tree] = \"&&\"\n  def notn[Tree] = \"!\" \n  def orn[Tree] = \"||\"\n}"}}}
+[2019-10-18 13:55:59,346] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 146
+[2019-10-18 13:55:59,346] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 146
+[2019-10-18 13:55:59,347] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":1,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"}}}
+[2019-10-18 13:55:59,347] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":1,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"}}}
+[2019-10-18 13:55:59,358] DEBUG langserver.core.MessageWriter - Content-Length: 36
+
+
+
+{"jsonrpc":"2.0","result":[],"id":1}
+[2019-10-18 13:55:59,358] DEBUG langserver.core.MessageWriter - Content-Length: 36
+
+
+
+{"jsonrpc":"2.0","result":[],"id":1}
+[2019-10-18 13:55:59,358] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","result":[],"id":1}
+[2019-10-18 13:55:59,358] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","result":[],"id":1}
+[2019-10-18 13:56:17,197] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 175
+[2019-10-18 13:56:17,197] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 175
+[2019-10-18 13:56:17,199] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":2,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":38,"character":47}}}
+[2019-10-18 13:56:17,199] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":2,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":38,"character":47}}}
+[2019-10-18 13:56:17,203] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (38, 47).
+[2019-10-18 13:56:17,203] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (38, 47).
+[2019-10-18 13:56:17,220] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 62
+[2019-10-18 13:56:17,220] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 62
+[2019-10-18 13:56:17,221] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":2}}
+[2019-10-18 13:56:17,221] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":2}}
+[2019-10-18 13:56:17,224] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(2)
+[2019-10-18 13:56:17,224] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(2)
+[2019-10-18 13:56:17,226] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:56:17,226] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:56:17,228] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:56:17,228] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:56:19,564] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 175
+[2019-10-18 13:56:19,564] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 175
+[2019-10-18 13:56:19,566] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":3,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":90,"character":31}}}
+[2019-10-18 13:56:19,566] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":3,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":90,"character":31}}}
+[2019-10-18 13:56:19,567] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (90, 31).
+[2019-10-18 13:56:19,567] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (90, 31).
+[2019-10-18 13:56:19,569] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:56:19,569] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:56:19,569] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:56:19,569] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:56:19,615] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 62
+[2019-10-18 13:56:19,615] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 62
+[2019-10-18 13:56:19,615] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":3}}
+[2019-10-18 13:56:19,615] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":3}}
+[2019-10-18 13:56:19,617] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(3)
+[2019-10-18 13:56:19,617] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(3)
+[2019-10-18 13:56:31,477] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 175
+[2019-10-18 13:56:31,477] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 175
+[2019-10-18 13:56:31,477] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":4,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":88,"character":59}}}
+[2019-10-18 13:56:31,477] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":4,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":88,"character":59}}}
+[2019-10-18 13:56:31,478] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (88, 59).
+[2019-10-18 13:56:31,478] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (88, 59).
+[2019-10-18 13:56:31,480] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:56:31,480] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:56:31,480] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:56:31,480] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:56:31,528] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 62
+[2019-10-18 13:56:31,528] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 62
+[2019-10-18 13:56:31,528] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":4}}
+[2019-10-18 13:56:31,528] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":4}}
+[2019-10-18 13:56:31,530] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(4)
+[2019-10-18 13:56:31,530] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(4)
+[2019-10-18 13:56:32,288] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 175
+[2019-10-18 13:56:32,288] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 175
+[2019-10-18 13:56:32,288] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":5,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":94,"character":54}}}
+[2019-10-18 13:56:32,288] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":5,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":94,"character":54}}}
+[2019-10-18 13:56:32,292] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (94, 54).
+[2019-10-18 13:56:32,292] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (94, 54).
+[2019-10-18 13:56:32,293] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:56:32,293] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:56:32,293] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:56:32,293] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:56:32,477] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 62
+[2019-10-18 13:56:32,477] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 62
+[2019-10-18 13:56:32,477] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":5}}
+[2019-10-18 13:56:32,477] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":5}}
+[2019-10-18 13:56:32,478] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(5)
+[2019-10-18 13:56:32,478] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(5)
+[2019-10-18 13:56:33,027] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 175
+[2019-10-18 13:56:33,027] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 175
+[2019-10-18 13:56:33,028] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":6,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":89,"character":33}}}
+[2019-10-18 13:56:33,028] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":6,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":89,"character":33}}}
+[2019-10-18 13:56:33,029] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (89, 33).
+[2019-10-18 13:56:33,029] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (89, 33).
+[2019-10-18 13:56:33,030] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:56:33,030] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:56:33,030] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:56:33,030] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:56:33,284] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 62
+[2019-10-18 13:56:33,284] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 62
+[2019-10-18 13:56:33,285] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":6}}
+[2019-10-18 13:56:33,285] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":6}}
+[2019-10-18 13:56:33,286] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(6)
+[2019-10-18 13:56:33,286] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(6)
+[2019-10-18 13:56:34,749] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 175
+[2019-10-18 13:56:34,749] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 175
+[2019-10-18 13:56:34,749] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":7,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":88,"character":24}}}
+[2019-10-18 13:56:34,749] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":7,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":88,"character":24}}}
+[2019-10-18 13:56:34,751] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (88, 24).
+[2019-10-18 13:56:34,751] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (88, 24).
+[2019-10-18 13:56:34,752] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:56:34,752] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:56:34,752] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:56:34,752] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:56:36,101] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 62
+[2019-10-18 13:56:36,101] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 62
+[2019-10-18 13:56:36,102] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":7}}
+[2019-10-18 13:56:36,102] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":7}}
+[2019-10-18 13:56:36,106] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(7)
+[2019-10-18 13:56:36,106] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(7)
+[2019-10-18 13:56:46,296] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 175
+[2019-10-18 13:56:46,296] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 175
+[2019-10-18 13:56:46,296] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":8,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":20,"character":53}}}
+[2019-10-18 13:56:46,296] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":8,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":20,"character":53}}}
+[2019-10-18 13:56:46,298] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (20, 53).
+[2019-10-18 13:56:46,298] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (20, 53).
+[2019-10-18 13:56:46,298] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:56:46,298] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:56:46,298] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:56:46,298] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:56:46,349] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 62
+[2019-10-18 13:56:46,349] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 62
+[2019-10-18 13:56:46,349] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":8}}
+[2019-10-18 13:56:46,349] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":8}}
+[2019-10-18 13:56:46,351] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(8)
+[2019-10-18 13:56:46,351] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(8)
+[2019-10-18 13:56:49,678] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 175
+[2019-10-18 13:56:49,678] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 175
+[2019-10-18 13:56:49,679] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":9,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":20,"character":51}}}
+[2019-10-18 13:56:49,679] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":9,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":20,"character":51}}}
+[2019-10-18 13:56:49,679] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (20, 51).
+[2019-10-18 13:56:49,679] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (20, 51).
+[2019-10-18 13:56:49,680] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:56:49,680] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:56:49,680] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:56:49,680] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:56:49,830] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 62
+[2019-10-18 13:56:49,830] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 62
+[2019-10-18 13:56:49,830] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":9}}
+[2019-10-18 13:56:49,830] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":9}}
+[2019-10-18 13:56:49,832] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(9)
+[2019-10-18 13:56:49,832] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(9)
+[2019-10-18 13:56:50,578] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 176
+[2019-10-18 13:56:50,578] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 176
+[2019-10-18 13:56:50,578] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":10,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":27,"character":50}}}
+[2019-10-18 13:56:50,578] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":10,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":27,"character":50}}}
+[2019-10-18 13:56:50,580] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (27, 50).
+[2019-10-18 13:56:50,580] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (27, 50).
+[2019-10-18 13:56:50,580] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:56:50,580] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:56:50,580] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:56:50,580] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:56:51,308] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-10-18 13:56:51,308] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-10-18 13:56:51,308] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":10}}
+[2019-10-18 13:56:51,308] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":10}}
+[2019-10-18 13:56:51,310] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(10)
+[2019-10-18 13:56:51,310] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(10)
+[2019-10-18 13:56:51,961] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 176
+[2019-10-18 13:56:51,961] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 176
+[2019-10-18 13:56:51,961] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":11,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":32,"character":50}}}
+[2019-10-18 13:56:51,961] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":11,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":32,"character":50}}}
+[2019-10-18 13:56:51,963] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (32, 50).
+[2019-10-18 13:56:51,963] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (32, 50).
+[2019-10-18 13:56:51,964] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:56:51,964] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:56:51,964] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:56:51,964] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:56:52,217] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-10-18 13:56:52,217] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-10-18 13:56:52,217] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":11}}
+[2019-10-18 13:56:52,217] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":11}}
+[2019-10-18 13:56:52,218] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(11)
+[2019-10-18 13:56:52,218] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(11)
+[2019-10-18 13:56:52,470] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 176
+[2019-10-18 13:56:52,470] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 176
+[2019-10-18 13:56:52,471] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":12,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":32,"character":49}}}
+[2019-10-18 13:56:52,471] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":12,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":32,"character":49}}}
+[2019-10-18 13:56:52,472] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (32, 49).
+[2019-10-18 13:56:52,472] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (32, 49).
+[2019-10-18 13:56:52,473] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:56:52,473] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:56:52,473] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:56:52,473] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:56:52,717] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-10-18 13:56:52,717] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-10-18 13:56:52,718] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":12}}
+[2019-10-18 13:56:52,718] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":12}}
+[2019-10-18 13:56:52,719] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(12)
+[2019-10-18 13:56:52,719] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(12)
+[2019-10-18 13:56:52,868] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 176
+[2019-10-18 13:56:52,868] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 176
+[2019-10-18 13:56:52,869] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":13,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":32,"character":48}}}
+[2019-10-18 13:56:52,869] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":13,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":32,"character":48}}}
+[2019-10-18 13:56:52,870] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (32, 48).
+[2019-10-18 13:56:52,870] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (32, 48).
+[2019-10-18 13:56:52,871] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:56:52,871] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:56:52,871] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:56:52,871] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:56:54,917] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-10-18 13:56:54,917] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-10-18 13:56:54,918] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":13}}
+[2019-10-18 13:56:54,918] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":13}}
+[2019-10-18 13:56:54,920] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(13)
+[2019-10-18 13:56:54,920] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(13)
+[2019-10-18 13:56:56,984] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 176
+[2019-10-18 13:56:56,984] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 176
+[2019-10-18 13:56:56,984] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":14,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":43,"character":55}}}
+[2019-10-18 13:56:56,984] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":14,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":43,"character":55}}}
+[2019-10-18 13:56:56,985] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (43, 55).
+[2019-10-18 13:56:56,985] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (43, 55).
+[2019-10-18 13:56:56,986] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:56:56,986] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:56:56,986] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:56:56,986] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:56:57,034] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-10-18 13:56:57,034] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-10-18 13:56:57,034] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":14}}
+[2019-10-18 13:56:57,034] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":14}}
+[2019-10-18 13:56:57,036] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(14)
+[2019-10-18 13:56:57,036] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(14)
+[2019-10-18 13:56:57,290] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 176
+[2019-10-18 13:56:57,290] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 176
+[2019-10-18 13:56:57,291] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":15,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":46,"character":54}}}
+[2019-10-18 13:56:57,291] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":15,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":46,"character":54}}}
+[2019-10-18 13:56:57,292] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (46, 54).
+[2019-10-18 13:56:57,292] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (46, 54).
+[2019-10-18 13:56:57,293] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:56:57,294] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:56:57,293] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:56:57,294] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:56:57,336] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-10-18 13:56:57,336] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-10-18 13:56:57,337] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":15}}
+[2019-10-18 13:56:57,337] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":15}}
+[2019-10-18 13:56:57,338] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(15)
+[2019-10-18 13:56:57,338] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(15)
+[2019-10-18 13:56:57,486] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 176
+[2019-10-18 13:56:57,486] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 176
+[2019-10-18 13:56:57,486] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":16,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":49,"character":54}}}
+[2019-10-18 13:56:57,486] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":16,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":49,"character":54}}}
+[2019-10-18 13:56:57,487] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (49, 54).
+[2019-10-18 13:56:57,487] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (49, 54).
+[2019-10-18 13:56:57,488] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:56:57,488] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:56:57,488] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:56:57,488] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:56:57,737] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-10-18 13:56:57,737] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-10-18 13:56:57,738] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":16}}
+[2019-10-18 13:56:57,738] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":16}}
+[2019-10-18 13:56:57,739] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(16)
+[2019-10-18 13:56:57,739] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(16)
+[2019-10-18 13:56:59,399] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 176
+[2019-10-18 13:56:59,399] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 176
+[2019-10-18 13:56:59,399] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":17,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":44,"character":54}}}
+[2019-10-18 13:56:59,399] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":17,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":44,"character":54}}}
+[2019-10-18 13:56:59,401] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (44, 54).
+[2019-10-18 13:56:59,401] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (44, 54).
+[2019-10-18 13:56:59,402] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:56:59,402] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:56:59,402] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:56:59,402] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:56:59,750] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-10-18 13:56:59,750] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-10-18 13:56:59,751] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":17}}
+[2019-10-18 13:56:59,751] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":17}}
+[2019-10-18 13:56:59,752] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(17)
+[2019-10-18 13:56:59,752] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(17)
+[2019-10-18 13:56:59,914] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 176
+[2019-10-18 13:56:59,914] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 176
+[2019-10-18 13:56:59,914] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":18,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":41,"character":54}}}
+[2019-10-18 13:56:59,914] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":18,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":41,"character":54}}}
+[2019-10-18 13:56:59,915] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (41, 54).
+[2019-10-18 13:56:59,915] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (41, 54).
+[2019-10-18 13:56:59,916] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:56:59,916] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:56:59,916] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:56:59,916] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:57:04,782] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-10-18 13:57:04,782] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-10-18 13:57:04,783] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":18}}
+[2019-10-18 13:57:04,783] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":18}}
+[2019-10-18 13:57:04,784] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(18)
+[2019-10-18 13:57:04,784] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(18)
+[2019-10-18 13:57:05,336] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 176
+[2019-10-18 13:57:05,336] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 176
+[2019-10-18 13:57:05,337] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":19,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":26,"character":37}}}
+[2019-10-18 13:57:05,337] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":19,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":26,"character":37}}}
+[2019-10-18 13:57:05,338] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (26, 37).
+[2019-10-18 13:57:05,338] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (26, 37).
+[2019-10-18 13:57:05,339] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:57:05,339] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:57:05,339] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:57:05,339] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:57:05,464] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-10-18 13:57:05,464] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-10-18 13:57:05,465] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":19}}
+[2019-10-18 13:57:05,465] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":19}}
+[2019-10-18 13:57:05,468] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(19)
+[2019-10-18 13:57:05,468] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(19)
+[2019-10-18 13:57:06,048] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 176
+[2019-10-18 13:57:06,048] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 176
+[2019-10-18 13:57:06,049] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":20,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":37,"character":37}}}
+[2019-10-18 13:57:06,049] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":20,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":37,"character":37}}}
+[2019-10-18 13:57:06,050] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (37, 37).
+[2019-10-18 13:57:06,050] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (37, 37).
+[2019-10-18 13:57:06,051] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:57:06,051] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:57:06,051] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:57:06,051] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:57:06,203] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-10-18 13:57:06,203] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-10-18 13:57:06,203] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":20}}
+[2019-10-18 13:57:06,203] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":20}}
+[2019-10-18 13:57:06,205] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(20)
+[2019-10-18 13:57:06,205] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(20)
+[2019-10-18 13:57:06,358] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 176
+[2019-10-18 13:57:06,358] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 176
+[2019-10-18 13:57:06,359] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":21,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":37,"character":37}}}
+[2019-10-18 13:57:06,359] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":21,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":37,"character":37}}}
+[2019-10-18 13:57:06,360] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (37, 37).
+[2019-10-18 13:57:06,360] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (37, 37).
+[2019-10-18 13:57:06,361] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:57:06,361] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:57:06,361] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:57:06,361] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:57:06,977] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-10-18 13:57:06,977] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-10-18 13:57:06,978] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":21}}
+[2019-10-18 13:57:06,978] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":21}}
+[2019-10-18 13:57:06,979] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(21)
+[2019-10-18 13:57:06,979] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(21)
+[2019-10-18 13:57:07,132] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 176
+[2019-10-18 13:57:07,132] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 176
+[2019-10-18 13:57:07,133] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":22,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":37,"character":36}}}
+[2019-10-18 13:57:07,133] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":22,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":37,"character":36}}}
+[2019-10-18 13:57:07,133] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (37, 36).
+[2019-10-18 13:57:07,133] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (37, 36).
+[2019-10-18 13:57:07,134] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:57:07,134] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:57:07,134] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:57:07,134] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:57:07,174] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-10-18 13:57:07,174] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-10-18 13:57:07,175] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":22}}
+[2019-10-18 13:57:07,175] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":22}}
+[2019-10-18 13:57:07,177] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(22)
+[2019-10-18 13:57:07,177] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(22)
+[2019-10-18 13:57:08,193] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 176
+[2019-10-18 13:57:08,193] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 176
+[2019-10-18 13:57:08,194] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":23,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":90,"character":36}}}
+[2019-10-18 13:57:08,194] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":23,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":90,"character":36}}}
+[2019-10-18 13:57:08,195] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (90, 36).
+[2019-10-18 13:57:08,195] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (90, 36).
+[2019-10-18 13:57:08,196] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:57:08,196] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:57:08,196] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:57:08,196] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:57:08,622] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-10-18 13:57:08,622] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-10-18 13:57:08,623] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":23}}
+[2019-10-18 13:57:08,623] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":23}}
+[2019-10-18 13:57:08,625] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(23)
+[2019-10-18 13:57:08,625] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(23)
+[2019-10-18 13:57:10,112] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 176
+[2019-10-18 13:57:10,112] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 176
+[2019-10-18 13:57:10,113] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":24,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":88,"character":32}}}
+[2019-10-18 13:57:10,113] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":24,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":88,"character":32}}}
+[2019-10-18 13:57:10,114] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (88, 32).
+[2019-10-18 13:57:10,114] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (88, 32).
+[2019-10-18 13:57:10,115] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:57:10,115] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:57:10,115] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:57:10,115] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:57:10,182] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-10-18 13:57:10,182] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-10-18 13:57:10,183] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":24}}
+[2019-10-18 13:57:10,183] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":24}}
+[2019-10-18 13:57:10,184] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(24)
+[2019-10-18 13:57:10,184] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(24)
+[2019-10-18 13:57:16,721] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 176
+[2019-10-18 13:57:16,721] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 176
+[2019-10-18 13:57:16,722] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":25,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":32,"character":43}}}
+[2019-10-18 13:57:16,722] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":25,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"},"position":{"line":32,"character":43}}}
+[2019-10-18 13:57:16,723] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (32, 43).
+[2019-10-18 13:57:16,723] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (32, 43).
+[2019-10-18 13:57:16,724] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:57:16,724] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-10-18 13:57:16,724] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:57:16,724] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-10-18 13:57:16,774] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-10-18 13:57:16,774] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-10-18 13:57:16,774] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":25}}
+[2019-10-18 13:57:16,774] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":25}}
+[2019-10-18 13:57:16,775] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(25)
+[2019-10-18 13:57:16,775] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(25)
+[2019-10-18 14:00:07,943] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 133
+[2019-10-18 14:00:07,943] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 133
+[2019-10-18 14:00:07,943] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didClose","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"}}}
+[2019-10-18 14:00:07,943] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didClose","params":{"textDocument":{"uri":"file:///Users/tommy/csc344/project3/main.scala"}}}
+[2019-10-18 14:00:07,947] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Removing file:///Users/tommy/csc344/project3/main.scala from Ensime.
+[2019-10-18 14:00:07,947] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Removing file:///Users/tommy/csc344/project3/main.scala from Ensime.
+[2019-10-18 16:21:02,526] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 59
+[2019-10-18 16:21:02,526] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 59
+[2019-10-18 16:21:02,538] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":26,"method":"shutdown","params":null}
+[2019-10-18 16:21:02,538] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":26,"method":"shutdown","params":null}
+[2019-10-18 16:21:02,614] DEBUG langserver.core.MessageWriter - Content-Length: 199
+
+
+
+{"jsonrpc":"2.0","error":{"code":-32602,"message":"Invalid params","data":{"meaning":"Invalid method parameter(s).","error":{"obj":[{"msg":["command parameters must be given"],"args":[]}]}}},"id":26}
+[2019-10-18 16:21:02,614] DEBUG langserver.core.MessageWriter - Content-Length: 199
+
+
+
+{"jsonrpc":"2.0","error":{"code":-32602,"message":"Invalid params","data":{"meaning":"Invalid method parameter(s).","error":{"obj":[{"msg":["command parameters must be given"],"args":[]}]}}},"id":26}
+[2019-10-18 16:21:02,615] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","error":{"code":-32602,"message":"Invalid params","data":{"meaning":"Invalid method parameter(s).","error":{"obj":[{"msg":["command parameters must be given"],"args":[]}]}}},"id":26}
+[2019-10-18 16:21:02,615] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","error":{"code":-32602,"message":"Invalid params","data":{"meaning":"Invalid method parameter(s).","error":{"obj":[{"msg":["command parameters must be given"],"args":[]}]}}},"id":26}
+[2019-10-18 16:21:03,544] INFO langserver.core.MessageReader - End of stream, terminating thread
+[2019-10-18 16:21:03,544] INFO langserver.core.MessageReader - End of stream, terminating thread
+[2019-10-18 16:21:03,544] INFO org.github.dragos.vscode.EnsimeLanguageServer - Shutdown request
+[2019-10-18 16:21:03,544] INFO org.github.dragos.vscode.EnsimeLanguageServer - Shutdown request
+[2019-10-18 16:21:03,547] INFO org.github.dragos.vscode.EnsimeLanguageServer - Shutting down actor system.
+[2019-10-18 16:21:03,547] INFO org.github.dragos.vscode.EnsimeLanguageServer - Shutting down actor system.
+[2019-10-18 16:21:03,666] INFO org.github.dragos.vscode.EnsimeLanguageServer - Actor system down.
+[2019-10-18 16:21:03,666] INFO org.github.dragos.vscode.EnsimeLanguageServer - Actor system down.
