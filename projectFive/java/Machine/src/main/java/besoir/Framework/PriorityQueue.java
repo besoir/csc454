@@ -2,6 +2,7 @@ package besoir.Framework;
 
 import java.lang.Comparable;
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class PriorityQueue<T> implements Comparable<T>{
     private ArrayList<T> queue;
@@ -11,21 +12,43 @@ public class PriorityQueue<T> implements Comparable<T>{
     }
 
     public void insert(T t) {
-        queue.add(0, t);
+        if(isNull()) {
+            queue.add(0, t);
+        } else {
+            
+        }
     }
 
-    public void deleteMin() {
+    public T peek() {
+        if(isNull()) 
+            return null;
 
+        return queue.get(0);
     }
 
-    public T dequeue() {
-        T place = queue.get(0);
-        queue.forEach(t -> queue.add(queue.indexOf(t) - 1, t));
-        return place;
+    public T poll() {
+        if(isNull())
+            return null;
+
+        //reorganizing here
+
+        return queue.get(0);
     }
 
-    public void findMin() {
+    public int size() {
+        return queue.size();
+    }
 
+    public Iterator<T> iterator() {
+        return queue.iterator();
+    }
+
+    public void clear() {
+        queue = new ArrayList<>();
+    }
+
+    private boolean isNull() {
+        return queue.size() == 0;
     }
 
     @Override

@@ -4,8 +4,10 @@ public class Event implements Comparable<Event> {
     private Time time;
     private char coin;
 
-    public Event(Time t, char c) {
-        this.time = t;
+    public Event(double t, char c) {
+        //logic for whether imaginary time is needed
+        this.time = new Time(t, 0);
+        //this.time = t;
         this.coin = c;
     }
 
@@ -19,7 +21,13 @@ public class Event implements Comparable<Event> {
 
     @Override
     public int compareTo(Event e) {
-        return 0;
+        if(time.getReal() < e.getTime().getReal()) {
+            return -1;
+        } else if(time.getReal() == e.getTime().getReal() && time.getImaginary() <= e.getTime().getImaginary()) {
+            return 0;
+        } else {
+            return 1;
+        }
     }
 
     @Override

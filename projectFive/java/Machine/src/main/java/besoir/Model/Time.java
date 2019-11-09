@@ -16,6 +16,14 @@ public class Time {
         }
     }
 
+    public double getReal() {
+        return this.tr;
+    }
+
+    public double getImaginary() {
+        return this.ti;
+    }
+
     @Override
     public String toString() {
         return "(" + tr + ", " + ti + ")";
