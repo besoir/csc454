@@ -1,4 +1,6 @@
 package besoir.Framework;
+
+import java.util.PriorityQueue;
 public class BinaryHeap<T> {
     PriorityQueue<T> pq;
     public BinaryHeap() {
@@ -6,9 +8,7 @@ public class BinaryHeap<T> {
     }
 
     public T getMin() {
-        T t = pq.dequeue();
-        //reshuffle maybe?
-        return t;
+        return pq.poll();
     }
 
     //I believe that we dont need this because it is implemented from our priority queue
@@ -18,6 +18,6 @@ public class BinaryHeap<T> {
     public void decreaseKey(){}
 
     public void insert(T t) {
-        pq.insert(t);
+        pq.add(t);
     }
 }
