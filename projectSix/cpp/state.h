@@ -3,12 +3,13 @@
 
 class State {
     private:
-        int quarters, nickels, dimes, value;
+        int count;
+        double time;
 
     public:
-        int coin_quan(char c);
-        int get_value();
-        State(int q, int d, int n, int v);
+        int get_count();
+        int get_time();
+        State(int q, double s);
 };
 
 #endif
