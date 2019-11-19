@@ -1,12 +1,10 @@
-/Users/tommy/csc454/projectFive/java/Machine/src/main/java/besoir/Model/Press.java
-/Users/tommy/csc454/projectFive/java/Machine/src/main/java/besoir/Model/Event.java
+/Users/tommy/csc454/projectFive/java/Machine/src/main/java/besoir/Framework/Time.java
 /Users/tommy/csc454/projectFive/java/Machine/src/main/java/besoir/Framework/Model.java
+/Users/tommy/csc454/projectFive/java/Machine/src/main/java/besoir/Model/Machine.java
 /Users/tommy/csc454/projectFive/java/Machine/src/main/java/besoir/Framework/State.java
-/Users/tommy/csc454/projectFive/java/Machine/src/main/java/besoir/Model/Time.java
-/Users/tommy/csc454/projectFive/java/Machine/src/main/java/besoir/Model/Drill.java
 /Users/tommy/csc454/projectFive/java/Machine/src/main/java/besoir/Framework/NetworkModel.java
 /Users/tommy/csc454/projectFive/java/Machine/src/main/java/besoir/Framework/AtomicModel.java
 /Users/tommy/csc454/projectFive/java/Machine/src/main/java/besoir/Framework/BinaryHeap.java
+/Users/tommy/csc454/projectFive/java/Machine/src/main/java/besoir/Framework/Event.java
 /Users/tommy/csc454/projectFive/java/Machine/src/main/java/besoir/Main.java
 /Users/tommy/csc454/projectFive/java/Machine/src/main/java/besoir/Model/MachineNetwork.java
-/Users/tommy/csc454/projectFive/java/Machine/src/main/java/besoir/Framework/PriorityQueue.java

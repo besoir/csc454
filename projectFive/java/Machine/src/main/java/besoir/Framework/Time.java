@@ -1,4 +1,4 @@
-package besoir.Model;
+package besoir.Framework;
 
 public class Time {
     private double tr, ti;

@@ -11,12 +11,15 @@ public class Main {
         System.out.print("Enter mode: ");
         String m = sc.nextLine();
 
+        MachineNetwork mn = new MachineNetwork();
+
         if(m.equals("b")) {
             try {
                 sc = new Scanner(new File("src/main/resources/input.txt"));
                 while(sc.hasNextLine()) {
                     String event  = sc.nextLine();
                     System.out.println("> " + event);
+                    mn.run(event);
                     //add it to the heap
                 }
                 System.out.println("Continuing with user input...");
@@ -30,7 +33,7 @@ public class Main {
         String event = sc.nextLine();
         while(!event.equals("exit")) {
             //run the program
-
+            mn.run(event);
             System.out.print("> ");
             event = sc.nextLine();
         }
