@@ -69,22 +69,26 @@ void VendingMachine::internal_delta() {
     int d_ret = this->get_dimes((tot - (25*q_ret)));
     int n_ret = this->get_nickels((tot - ((25 * q_ret) + (10 * d_ret))));
 
-    this->s = new State(s->coin_quan('q') - q_ret, s->coin_quan('d') - d_ret, s->coin_quan('n') - n_ret, 0);
+    State *q = s;
+    this->s = new State(q->coin_quan('q') - q_ret, q->coin_quan('d') - d_ret, q->coin_quan('n') - n_ret, 0);
+    delete(q);
     time_advance();
 }
 
 void VendingMachine::external_delta(char c) {
+    State *q = s;
     switch(c) {
         case 'q':
-            this->s = new State(s->coin_quan('q') + 1, s->coin_quan('d'), s->coin_quan('n'), s->get_value() + 25);
+            this->s = new State(q->coin_quan('q') + 1, q->coin_quan('d'), q->coin_quan('n'), q->get_value() + 25);
             break;
         case 'd':
-            this->s = new State(s->coin_quan('q'), s->coin_quan('d') + 1, s->coin_quan('n'), s->get_value() + 10);
+            this->s = new State(q->coin_quan('q'), q->coin_quan('d') + 1, q->coin_quan('n'), q->get_value() + 10);
             break;
         case 'n':
-            this->s = new State(s->coin_quan('q'), s->coin_quan('d'), s->coin_quan('n') + 1, s->get_value() + 5);
+            this->s = new State(q->coin_quan('q'), q->coin_quan('d'), q->coin_quan('n') + 1, q->get_value() + 5);
             break;
     }
+    delete(q);
     time_advance();
 }
 
@@ -95,17 +99,19 @@ void VendingMachine::confluent_delta(char c) {
     int d_ret = this->get_dimes((tot - (25*q_ret)));
     int n_ret = this->get_nickels((tot - ((25 * q_ret) + (10 * d_ret))));
 
+    State *q = s;
     switch(c) {
         case 'q':
-            this->s = new State(s->coin_quan('q') - q_ret + 1, s->coin_quan('d') - d_ret, s->coin_quan('n') - n_ret, 25);
+            this->s = new State(q->coin_quan('q') - q_ret + 1, q->coin_quan('d') - d_ret, q->coin_quan('n') - n_ret, 25);
             break;
         case 'd':
-            this->s = new State(s->coin_quan('q') - q_ret, s->coin_quan('d') - d_ret + 1, s->coin_quan('n') - n_ret, 10);
+            this->s = new State(q->coin_quan('q') - q_ret, q->coin_quan('d') - d_ret + 1, q->coin_quan('n') - n_ret, 10);
             break;
         case 'n':
-            this->s = new State(s->coin_quan('q') - q_ret, s->coin_quan('d') - d_ret, s->coin_quan('n') - n_ret + 1, 5);
+            this->s = new State(q->coin_quan('q') - q_ret, q->coin_quan('d') - d_ret, q->coin_quan('n') - n_ret + 1, 5);
             break;
     }
+    delete(q);
     time_advance();
 }
 
