@@ -1,5 +1,10 @@
-#ifndef STATE_H
-#define STATE_H
+#ifndef STATE_HPP
+#define STATE_HPP
+
+#include <stdlib.h>
+#include <string>
+#include <iostream>
+using namespace std;
 
 class State {
     private:
@@ -9,6 +14,7 @@ class State {
     public:
         int get_count();
         int get_time();
+        void print_state();
         State(int q, double s);
 };
 
